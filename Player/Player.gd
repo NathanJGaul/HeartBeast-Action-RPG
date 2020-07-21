@@ -25,5 +25,4 @@ func _physics_process(delta):
 		animationState.travel("Idle")
 		velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)
 	
-	print(velocity)
 	velocity = move_and_slide(velocity)
