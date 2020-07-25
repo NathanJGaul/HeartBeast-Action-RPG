@@ -84,7 +84,6 @@ func roll_animation_finished():
 func attack_animation_finished():
 	state = MOVE
 
-
 func _on_Hurtbox_area_entered(area):
 	stats.health -= area.damage
 	hurtbox.start_invincibility(0.5)
